@@ -1,10 +1,11 @@
 # sentiment analyisis for wechat articles
 
-微信文章情感分析项目，对比模型：1.深度学习模型：Attention-BiLSTM、BiLSTM、LSTM、CNN;2.机器学习模型：SVM、NB、XGBoost、LR；开源情感分析工具：Senta、SnowNLP
+微信文章情感分析项目，对比模型：1.深度学习模型：Attention-BiLSTM、BiLSTM、LSTM、CNN;2.机器学习模型：SVM、NB、XGBoost、LR；3.开源情感分析工具：Senta、SnowNLP
 
 1.文件说明
 
 data文件夹:
+
      jd-train: 京东开源训练集
      sogou-train: 搜狗训练集
      wx-train：微信训练集
@@ -13,6 +14,7 @@ data文件夹:
     停用词.txt：停用词
 	
 Data_process文件夹：数据处理
+
 	samples：搜狗新闻数据集，经过情感标注后得到搜狗训练集
 	tag_trainData.py：情感词典标注法筛选训练集和标注标签
 	testData_process.py：测试集处理
@@ -20,6 +22,7 @@ Data_process文件夹：数据处理
 	weixin_info.txt：微信分类数据集，经过情感标注后得到微信训练集
 	
 model文件夹：
+
 	sgns.weibo.bigram 预训练的300d词向量
 	sgns.weibo.word    
 	weights.best.hdf5 保存的att-bilstm模型
