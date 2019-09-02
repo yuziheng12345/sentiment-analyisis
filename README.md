@@ -53,5 +53,5 @@ SA_Senta.py senta工具
 SA_snowNLP.py snowNLP工具
 
 2.需要安装的第三方包：
-sklearn，gensim，keras，numpy，tkinter,xgboost,paddlehub,snownlp
+sklearn，gensim，keras，numpy，tkinter，xgboost，paddlehub，snownlp
 
